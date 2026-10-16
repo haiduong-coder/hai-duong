@@ -30,7 +30,7 @@ All 10 required named ranges are properly attached, all calculated cells rely st
 ### Finding 3: Hardcoded References in Sensitivity Table Input Column
 * **What Was Checked:** The sensitivity table grid on the `Sensitivity_Analysis` tab to ensure recalculation when base spot rate (`S0_in`) changes.
 * **What Was Found:** The spot rate column ($S_T$) contained hardcoded numerical increments (e.g., `1.045`, `1.056`) rather than formulaic linkages to `S0_in`. Changing `S0_in` on the `Inputs` tab failed to update the sensitivity grid or chart.
-* **Action Taken:** Converted the spot rate column to dynamic percentage formulas referencing `S0_in` (e.g., `=S0_in * 0.95`, `=S0_in * 0.96`). Modifying `S0_in` now instantly updates the entire sensitivity table and chart.
+* **Action Taken:** Converted the spot rate column to dynamic percentage formulas referencing `S0_in` (e.g., `=S0_in * (1 + Scenario%)`). Modifying `S0_in` now instantly updates the entire sensitivity table and chart.
 
 ---
 
