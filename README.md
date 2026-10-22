@@ -8,14 +8,14 @@ Welcome to my professional portfolio repository, where I will be documenting my 
 
 # Student International Business & Treasury Portfolio
 
-## FX Hedging Project: EUR 4.5M Exposure
+## Scenario 26: Chip-Design IP Royalty Hedging (`chip-design-ip`)
 
-This repository contains the end-to-end financial model, technical specifications, live market data sourcing, and corporate decision memos for hedging a 1-year EUR 4,500,000 commercial receivable.
+This repository contains the treasury risk model, market data memos, and executive decision framework for hedging a **182-day EUR 13,000,000 royalty receivable** for a U.S. chip-design IP licensor from a French electronics group.
 
 ### Project Deliverables
-* **Stage 1 — Executive Brief:** [`docs/briefs/2026-10-15-eur-receivable-hedge-brief.md`](docs/briefs/2026-10-15-eur-receivable-hedge-brief.md)
+* **Stage 1 — Executive Brief:** [`docs/briefs/2026-10-23-chip-design-ip-hedge-brief.md`](docs/briefs/2026-10-23-chip-design-ip-hedge-brief.md)
 * **Stage 2 — Model Specification:** [`capabilities/fx-hedging/spec.md`](capabilities/fx-hedging/spec.md)
-* **Stage 3 — Financial Model Build & Audit:** [`capabilities/fx-hedging/model.xlsx`](capabilities/fx-hedging/model.xlsx) & [`analysis/2026-10-15-eur-receivable-build-audit-analysis.md`](analysis/2026-10-15-eur-receivable-build-audit-analysis.md)
-* **Stage 4 — Live Market Data Memo:** [`data/2026-10-15-eur-receivable-market-data-memo.md`](data/2026-10-15-eur-receivable-market-data-memo.md)
-* **Stage 5 — Validation Analysis:** [`analysis/2026-10-15-eur-receivable-validation-analysis.md`](analysis/2026-10-15-eur-receivable-validation-analysis.md)
-* **Stage 5 — CFO Decision Memo:** [`docs/decisions/2026-10-15-eur-receivable-hedge-decision-memo.md`](docs/decisions/2026-10-15-eur-receivable-hedge-decision-memo.md)
+* **Stage 3 — Financial Model Build & Audit:** [`capabilities/fx-hedging/model.xlsx`](capabilities/fx-hedging/model.xlsx) & [`analysis/2026-10-23-chip-design-ip-build-audit-analysis.md`](analysis/2026-10-23-chip-design-ip-build-audit-analysis.md)
+* **Stage 4 — Live Market Data Memo:** [`data/2026-10-23-chip-design-ip-market-data-memo.md`](data/2026-10-23-chip-design-ip-market-data-memo.md)
+* **Stage 5 — Validation Analysis:** [`analysis/2026-10-23-chip-design-ip-validation-analysis.md`](analysis/2026-10-23-chip-design-ip-validation-analysis.md)
+* **Stage 5 — CFO Decision Memo:** [`docs/decisions/2026-10-23-chip-design-ip-hedge-decision-memo.md`](docs/decisions/2026-10-23-chip-design-ip-hedge-decision-memo.md)
